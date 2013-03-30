@@ -1,0 +1,71 @@
+<nutcallstatus>
+   <!--this is similar to all.xml, but with more values-->
+   <!--all temperatures are displayed in tenths F, regardless of setting of unit-->
+   <!--all temperatures sent by browser to unit should be in F.  you can send tenths F with a decimal place, ex: 123.5-->  
+   <COOK>
+      <COOK_NAME>Big Green Egg</COOK_NAME>
+      <COOK_TEMP>3220</COOK_TEMP>
+      <COOK_SET>4000</COOK_SET>
+      <COOK_STATUS>0</COOK_STATUS>
+   </COOK>
+   <FOOD1>
+      <FOOD1_NAME>Chicken Quarters</FOOD1_NAME>
+      <FOOD1_TEMP>1493</FOOD1_TEMP>
+      <FOOD1_SET>1750</FOOD1_SET>
+      <FOOD1_STATUS>0</FOOD1_STATUS>
+   </FOOD1>
+   <FOOD2>
+      <FOOD2_NAME>Food2</FOOD2_NAME>
+      <FOOD2_TEMP>OPEN</FOOD2_TEMP>
+      <FOOD2_SET>1000</FOOD2_SET>
+      <FOOD2_STATUS>4</FOOD2_STATUS>
+   </FOOD2>
+   <FOOD3>
+      <FOOD3_NAME>Food3</FOOD3_NAME>
+      <FOOD3_TEMP>OPEN</FOOD3_TEMP>
+      <FOOD3_SET>1000</FOOD3_SET>
+      <FOOD3_STATUS>4</FOOD3_STATUS>
+   </FOOD3>
+   <OUTPUT_PERCENT>100</OUTPUT_PERCENT>
+   <TIMER_CURR>00:00:00</TIMER_CURR>   
+   <TIMER_STATUS>0</TIMER_STATUS>
+   <SYSTEM>
+      <MENU_SCROLLING>1</MENU_SCROLLING>
+      <LCD_BACKLIGHT>47</LCD_BACKLIGHT>
+      <LCD_CONTRAST>10</LCD_CONTRAST>
+      <DEG_UNITS>1</DEG_UNITS>
+      <ALARM_BEEPS>0</ALARM_BEEPS>
+      <KEY_BEEPS>0</KEY_BEEPS>
+   </SYSTEM>
+   <CONTROL>
+      <TIMEOUT_ACTION>0</TIMEOUT_ACTION>
+      <COOKHOLD>2000</COOKHOLD>
+      <ALARMDEV>500</ALARMDEV>
+      <COOK_RAMP>0</COOK_RAMP>
+      <OPENDETECT>1</OPENDETECT>
+      <CYCTIME>6</CYCTIME>
+      <PROPBAND>500</PROPBAND>
+   </CONTROL>
+   <WIFI>
+      <IP>10.0.1.30</IP>
+      <NM>255.255.255.0</NM>
+      <GW>10.0.1.1</GW>
+      <DNS>10.0.1.1</DNS>
+      <WIFIMODE>0</WIFIMODE>
+      <DHCP>0</DHCP>
+      <SSID>Kempville Network</SSID>
+      <WIFI_ENC>6</WIFI_ENC>
+      <WIFI_KEY>Nemesis69!</WIFI_KEY>
+      <HTTP_PORT>80</HTTP_PORT>
+   </WIFI>
+   <SMTP>
+      <SMTP_HOST>smtp.hostname.com</SMTP_HOST>
+      <SMTP_PORT>0</SMTP_PORT>
+      <SMTP_USER></SMTP_USER>
+      <SMTP_PWD></SMTP_PWD>
+      <SMTP_TO>destination@someplace.com</SMTP_TO>
+      <SMTP_FROM>source@someplace.com</SMTP_FROM>
+      <SMTP_SUBJ>Temperature Controller Status E-Mail</SMTP_SUBJ>
+      <SMTP_ALERT>0</SMTP_ALERT>
+   </SMTP>
+</nutcallstatus>

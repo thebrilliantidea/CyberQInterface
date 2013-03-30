@@ -18,7 +18,7 @@ setup(
     
     #Package metadata
     keywords = "cyberq api bbq bbqguru",
-    install_requires=['distribute', 'lxml', 'requests'],
+    install_requires=['lxml', 'requests'],
     test_suite = "nose.collector",
     tests_require=['nose>=1.0.0', 'mock>=1.0.0', 'coverage'],
     packages = find_packages(),
