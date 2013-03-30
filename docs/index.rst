@@ -70,7 +70,9 @@ Source is also available on github. http://github.com/TheBrilliantIdea/CyberQInt
 To install from source, clone the code from github and then execute the setup.py
 installer::
 
-    sudo python setup.py install
+   git clone git://github.com/thebrilliantidea/CyberQInterface.git
+   cd CyberQInterface
+   sudo python setup.py install
 
 Indices and tables
 ==================
