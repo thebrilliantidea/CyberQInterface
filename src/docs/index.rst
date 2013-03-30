@@ -63,14 +63,14 @@ Installation
 
 You can install the library via easy_install. The command should look like::
 
-    pip CyberQInterface
+    sudo pip install CyberQInterface
     
 Source is also available on github. http://github.com/TheBrilliantIdea/CyberQInterface
 
 To install from source, clone the code from github and then execute the setup.py
 installer::
 
-    python setup.py install
+    sudo python setup.py install
 
 Indices and tables
 ==================
