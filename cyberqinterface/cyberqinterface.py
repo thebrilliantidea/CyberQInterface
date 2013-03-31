@@ -345,6 +345,21 @@ class CyberQInterface:
     def statusLookup(self, code):
         """
         Provides a text meaning for a given status code
+        "status" : ["OK", "HIGH", "LOW", "DONE", "ERROR", "HOLD", "ALARM",
+                      "SHUTDOWN"],
+                      
+        ============== ============
+        Value from API String Value
+        ============== ============
+        0              OK
+        1              HIGH
+        2              LOW
+        3              DONE
+        4              ERROR
+        5              HOLD
+        6              ALARM
+        7              SHUTDOWN
+        ============== ============
 
         Keyword arguments:
         <int> code - the code returned in the object or the XML.
@@ -360,7 +375,15 @@ class CyberQInterface:
     def temperatureLookup(self, code):
         """
         Provides a text meaning for the temperature scale in use
-
+        temperature" : ["CELSIUS", "FAHRENHEIT"]
+        
+        ============== ============
+        Value from API String Value
+        ============== ============
+        0              CELSIUS
+        1              FAHRENHEIT
+        ============== ============
+        
         Keyword arguments:
         <int> code - the code returned in the object or XML.
 
@@ -375,6 +398,15 @@ class CyberQInterface:
     def rampLookup(self, code):
         """
         Provides a text representation of the food that is monitored for ramping
+
+        ============== ============
+        Value from API String Value
+        ============== ============
+        0              OFF
+        1              FOOD1
+        2              FOOD2
+        3              FOOD3
+        ============== ============
 
         Keyword arguments:
         <int> code - the code from the object or xml
