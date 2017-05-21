@@ -47,7 +47,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 import requests
 from lxml import objectify
 
-from cyberqinterface_exceptions import *
+from .cyberqinterface_exceptions import *
 
 class CyberQInterface:
     """
@@ -173,7 +173,7 @@ class CyberQInterface:
                         'COOK_SET' : '300'})
         """
         badParameters = {}
-        for key in parameters.keys():
+        for key in list(parameters.keys()):
             if key not in self.validParameters:
                 badParameters[key] = "Not a valid parameter"
         return badParameters
@@ -334,7 +334,7 @@ class CyberQInterface:
         if isinstance(code, objectify.IntElement):
             code = int(code)
         
-        if not codes.has_key(table):
+        if table not in codes:
             raise LookupException("No lookup table for: %s", table)
         try:
             return codes[table][code]
@@ -418,9 +418,9 @@ if __name__ == "__main__": # pragma: no cover
         help(CyberQInterface)
 
     if args.version == True:
-        print "Version: %s" % __version__
-        print "Last Modified: %s" % __date__
+        print("Version: %s" % __version__)
+        print("Last Modified: %s" % __date__)
 
     if args.license == True:
-        print "License: %s" % __license__
-        print __license_text__
+        print("License: %s" % __license__)
+        print(__license_text__)

@@ -9,8 +9,8 @@ __version__ = '1.0'
 __author__ = 'Bryan Kemp'
 __license__ = 'BSD New'
 
-from cyberqinterface import CyberQInterface
-from cyberqinterface_exceptions import *
+from .cyberqinterface import CyberQInterface
+from .cyberqinterface_exceptions import *
 
 def debug(enable=True, level=1):
     """
