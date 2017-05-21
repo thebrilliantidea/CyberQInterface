@@ -40,8 +40,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'CyberQInterface'
-copyright = u'2013, The Brilliant Idea'
+project = 'CyberQInterface'
+copyright = '2013, The Brilliant Idea'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -183,8 +183,8 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'CyberQInterface.tex', u'CyberQInterface Documentation',
-   u'Bryan Kemp', 'manual'),
+  ('index', 'CyberQInterface.tex', 'CyberQInterface Documentation',
+   'Bryan Kemp', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -213,8 +213,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'cyberqinterface', u'CyberQInterface Documentation',
-     [u'Bryan Kemp'], 1)
+    ('index', 'cyberqinterface', 'CyberQInterface Documentation',
+     ['Bryan Kemp'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -227,8 +227,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'CyberQInterface', u'CyberQInterface Documentation',
-   u'Bryan Kemp', 'CyberQInterface', 'One line description of project.',
+  ('index', 'CyberQInterface', 'CyberQInterface Documentation',
+   'Bryan Kemp', 'CyberQInterface', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -245,10 +245,10 @@ texinfo_documents = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'CyberQInterface'
-epub_author = u'Bryan Kemp'
-epub_publisher = u'Bryan Kemp'
-epub_copyright = u'2013, Bryan Kemp'
+epub_title = 'CyberQInterface'
+epub_author = 'Bryan Kemp'
+epub_publisher = 'Bryan Kemp'
+epub_copyright = '2013, Bryan Kemp'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
